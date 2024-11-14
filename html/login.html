@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/login.css">
+
+</head>
+<body>
+
+    <header>
+        <div class="head">
+            <img src="/images/iso10.gif" alt="dodeca">
+            <a href="#" id="home">Brendon<b>Janku</b></a>
+            <nav>
+                <ul>
+                    <li><a href="/html/index.html">About</a></li>
+                    <li><a href="/html/projects.html">Projects</a></li>
+                    <li><a href="#">CV</a></li>
+                    <li><a href="/html/login.html">Blog</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <main>
+
+        <div class="login">
+
+            <form action="/php/login.php" method="post">
+                <h1>Log in</h1>
+
+                <input type="email" id="username" name="email" placeholder="Email" required>
+        
+                <input type="password" id="password" name="password" placeholder="Password" required>
+        
+                <input type="submit" id="loginButton" value="Log in">
+                    
+                <p id="register">Don't have an account?&nbsp;<a href="/html/register.html"> Sign up</a></p>
+                
+            </form>
+        </div>
+
+    </main>
+
+
+
+    <footer>
+    
+        <div class="foot">
+            <p>&copy; Made with &Lt;3 by Brendon Janku</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
